@@ -11,18 +11,4 @@ Clone this repository to your local machine using the following command:
 git clone https://github.com/ChaimaaNairi/AnalyseTraficDropbox.git
 ```
 
-## Usage
-
-1. **Capture Network Traffic**:
-   - Use Wireshark or tcpdump to capture network packets while Dropbox is running over Wi-Fi and 4G connections.
-   - Save the captured packets to a file (e.g., `capture.pcap`).
-
-2. **Analyze Traffic**:
-   - Run the analysis script provided in the `scripts/` directory.
-   - Specify the path to the captured packet file as an argument.
-   - The script will process the packets and extract relevant information.
-
-3. **Explore Insights**:
-   - Review the output of the analysis script to understand Dropbox's network behavior.
-   - Extract insights such as server communication patterns, data transfer volumes, etc.
 
